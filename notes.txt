@@ -1,3 +1,13 @@
 MongoDB Atlas credentials
 username: admin
 password: Team1ist256
+
+
+give the form a unique id (ex: id="myForm1")
+then reference the form and validat.js file at the bottom using
+
+    <!-- Form validation js-->
+    <script src="validate.js"></script>
+    <script>
+      setupFormValidation("myForm1");
+    </script>
